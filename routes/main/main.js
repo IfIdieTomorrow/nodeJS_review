@@ -1,7 +1,5 @@
-const { request } = require("express");
 const express = require("express");
 const router = express.Router();
-const path = require("path");
 
 //main page 는 login이 될 때만 접근 가능
 router.get("/", (req, res)=>{
